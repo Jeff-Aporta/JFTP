@@ -199,7 +199,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
                         Importaciones
                     </h2>
                     <CodeJava>{`
-                            import it.sauronsoftware.JFTP.FTPClient;
+                            import JFTP.FTPClient;
                             import java.security.KeyManagementException;
                             import java.security.NoSuchAlgorithmException;
                             import java.security.SecureRandom;
