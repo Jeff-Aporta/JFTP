@@ -1,7 +1,7 @@
 const _JFTP_ = new GenerarContenidoLibreria({
     nombre: "JFTP",
     slogan: "FTP Para Java",
-    img: "imgs/Librerias/JFTP.jpeg",
+    img: "src-web/img/logo.jpeg",
 
     github: "https://github.com/Jeff-Aporta/libreria-java-JFTP",
 
@@ -18,7 +18,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
         {
             nombre: "Requisitos",
             contenido: () => {
-                return <ul>
+                return <ul className="punto-centrico">
                     <LIDoc>
                         Java Runtime Environment J2SE v.1.4 o posterior.
                     </LIDoc>
@@ -127,7 +127,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
                     Si puede conectar el servidor remoto solo a través de un proxy, la
                     biblioteca JFTP le permite elegir entre otros conectores:
 
-                    <ul>
+                    <ul className="punto-centrico">
                         <LIDoc>
                             HTTPTunnelConnector (JFTP.connectors.HTTPTunnelConnector)<br />
                             Éste puede conectarse a través de un proxy HTTP que soporta y permite el
@@ -368,7 +368,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
                     La biblioteca JFTP puede manejar muchos formatos de respuesta LIST, creando a partir de ellos una
                     representación de objeto estructurado unificado del contenido del directorio. Actualmente JFTP puede manejar:
 
-                    <ul>
+                    <ul className="punto-centrico">
                         <LIDoc>Estilo UNIX y variantes (es decir, estilo MAC)</LIDoc>
                         <LIDoc>estilo DOS</LIDoc>
                         <LIDoc>Estilos NetWare</LIDoc>
@@ -412,7 +412,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
                     correctamente. Por estas razones, el desarrollador puede controlar si JFTP debe usar el comando MLSD
                     llamando al método setMLSDPolicy() de un objeto FTPClient. Los valores admitidos son:
 
-                    <ul>
+                    <ul className="punto-centrico">
                         <LIDoc>
                             FTPClient.MLSD_IF_SUPPORTED
                             <br />
@@ -637,7 +637,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
                     devuelta por el servidor y se conectan al mismo host utilizado para la línea de comunicación. El comportamiento de
                     JFTP depende de varios factores:
 
-                    <ul>
+                    <ul className="punto-centrico">
                         <LIDoc>
                             Cada FTPConnector tiene un comportamiento predeterminado. La mayoría de los incluidos ignoran la dirección
                             IP devuelta por el servidor. Por el momento, el único conector oficial que por defecto utiliza la dirección
@@ -660,7 +660,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
 
                     En el modo de transferencia activo, se pueden configurar las siguientes propiedades del sistema:
 
-                    <ul>
+                    <ul className="punto-centrico">
                         <LIDoc>
 
                             JFTP.activeDataTransfer.hostAddress
@@ -883,7 +883,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
 
                     La biblioteca JFTP define cinco tipos de excepciones:
 
-                    <ul>
+                    <ul className="punto-centrico">
                         <LIDoc>
                             FTPException (JFTP.FTPException)<br />
                             Dependiendo del método, este se lanza para informar una falla de FTP.
