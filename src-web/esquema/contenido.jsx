@@ -39,13 +39,14 @@ const _JFTP_ = new GenerarContenidoLibreria({
             contenido: () => {
                 return <React.Fragment>
                     La clase principal de la biblioteca es FTPClient (JFTP.FTPClient).
-
-
+                    <br /><br />
                     Comience a crear una instancia de FTPClient:
 
                     <CodeJava linenumbers={false}>
                         import JFTP.FTPClient; // No olvide importar la clase FTPClient
-                        <br />
+                    </CodeJava>
+
+                    <CodeJava linenumbers={false}>
                         FTPClient client = new FTPClient();
                     </CodeJava>
 
@@ -857,13 +858,13 @@ const _JFTP_ = new GenerarContenidoLibreria({
                     Puede enviar comandos específicos del sitio de la siguiente manera:
 
                     <CodeJava>
-                        Respuesta FTPReply = client.sendSiteCommand("SU COMANDO");
+                        FTPReply respuesta = client.sendSiteCommand("SU COMANDO");
                     </CodeJava>
 
                     También puedes enviar comandos personalizados:
 
                     <CodeJava>
-                        Respuesta FTPReply = client.sendCustomCommand("SU COMANDO");
+                        FTPReply respuesta = client.sendCustomCommand("SU COMANDO");
                     </CodeJava>
 
                     Tanto sendSiteCommand() como sendCustomCommand() devuelven
