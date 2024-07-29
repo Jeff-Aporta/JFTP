@@ -1,12 +1,16 @@
 const _JFTP_ = new GenerarContenidoLibreria({
     nombre: "JFTP",
-    slogan: "FTP Para Java",
+    slogan: "Controlador FTP (File Transfer Protocol)",
     img: "src-web/img/logo.jpeg",
 
     github: "https://github.com/Jeff-Aporta/libreria-java-JFTP",
 
     resumen: {
-            desc: "Implementa un cliente FTP Java con todas las funciones de JFTP integrado en su aplicación.",
+            desc: `
+            Conecta fácilmente a tu servidor FTP, sube archivos y gestiona tus datos de manera eficiente. ¡Empieza ahora y optimiza tus procesos de transferencia de archivos!
+
+            Implementa todas las funciones de JFTP integrado en su aplicación.
+            `,
             descImg: [
                     "Transferir archivos (cargar y descargar)",
                     "Explorar el sitio FTP remoto (incluido el listado de directorios)",
