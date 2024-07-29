@@ -3,7 +3,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
     slogan: "Controlador FTP (File Transfer Protocol)",
     img: "src-web/img/logo.jpeg",
 
-    github: "https://github.com/Jeff-Aporta/libreria-java-JFTP",
+    github: "https://github.com/Jeff-Aporta/JFTP",
 
     resumen: {
             desc: `
