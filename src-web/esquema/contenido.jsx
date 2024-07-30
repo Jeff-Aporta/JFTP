@@ -630,7 +630,7 @@ const _JFTP_ = new GenerarContenidoLibreria({
                         client.setPassive(true); // Modo pasivo
                     </CodeJava>
 
-                    El valor predeterminado para un indicador pasivo de cliente JFTP es verdadero : si nunca llama a setPassive(false),
+                    El valor predeterminado para un indicador pasivo de cliente JFTP es verdadero: si nunca llama a <CodeInline>setPassive(false)</CodeInline>,
                     su cliente actuará siempre solicitando el modo pasivo al servidor antes de cada transferencia.
 
                     <br /><br />
