@@ -1,11 +1,14 @@
 ReactDOM.render(
-    <div className="esquema-principal">
-        <div className="contenedor-pagina">
-            <EnvolventePagina>
-                <PaginaLibreriaJFTP />
-            </EnvolventePagina>
+    <ThemeProvider theme={themeSelected}>
+        <div className="esquema-principal">
+            <div className="contenedor-pagina">
+                <EnvolventePagina>
+                    {esquemaGeneralLibreria(_JFTP_)}
+                </EnvolventePagina>
+                <BotonLinkPortafolio />
+            </div>
         </div>
-    </div>,
+    </ThemeProvider>,
     document.querySelector('body')
 );
 
